@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+body{
+    font-size: 16px;
+    font-family: Fuzzy Bubbles  ;
+    font-weight: normal;
+    background: #f1f1f1;  
+}
+
+.card-1{
+    border: 2px solid rgb(251, 227, 191);
+    background: cornsilk;
+}
+
+.card-2{
+    border: 2px solid rosybrown;
+    background: rgb(216, 175, 175);
+    
+    
+}
+
+.card-3{
+    border: 2px solid rgb(173, 253, 204);
+    background: rgb(150, 204, 171);
+    
+    
+}
+
+.card-4{
+    border: 2px solid rgb(173, 206, 253);
+    background: rgb(146, 174, 212);
+    
+}
+.card-1, .card-2, .card-3, .card-4{
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+*{
+    margin:0;
+    padding: 2px;
+    
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+  
+}
+
+img{
+    border-radius: 25px;
+    width: 250px;
+    /* margin-top: 5px;
+    margin-left: 25%; */
+    box-shadow: 4px 4px 14px rgba(0,0,0, 0.25);
+    margin-bottom: 10px;
+    
+}
+
+table, form {
+        
+    padding-left: 50px;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+a{
+    color: rgb(163, 124, 176);
+    text-decoration: none;
+}
+
+
+a:hover{
+    opacity: 0.8;
+    color: blueviolet;
+}
+
+a:visited{
+    color:rgb(221, 163, 93)
+}
+
+.btn{
+    color: rgb(253, 253, 253);
+    padding: 10px 25px;
+    border-radius: 15px;
+    background: rgb(131, 115, 145);
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    color: rgb(231, 197, 148);
+    background: burlywood;
+}
+
+.list{
+    padding: 0 70px ;
+}
+
+.list li{
+    margin-bottom: 2px;
+}
+
+table tr:nth-child(1) td:nth-child(2){
+    background: greenyellow;
+    text-align: center;
+}
+ table td{
+    margin-bottom:50px;
+ }
+
+ .box{
+    display: flex;
+ }
+
+.box-in {
+    display: block;
+    margin-left: 15px;
+    /* text-align: right; */
+}
+ 
+ /* .box2{
+    width: 42%;
+    display: inline-block;
+    text-decoration: none;
+    
+ } */ 
+
+
+.card-4 label{
+    display: block;
+}
+
+.form-row{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form{
+    display: inline-block;
+    margin-right: 10px;
+    width: 50%;
+    /* width: calc(50% - 15px); */
+}
+
+.form-row .form:last-child{
+    margin-right: 0;
+}
+
+ .card-4 input,
+ .card-4 textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background:transparent ;
+    border-bottom: 1px solid rgb(105, 75, 207);
+    color: rgb(82, 82, 173);
+    font-family: inherit;
+}
+
+.card-4 h2{
+    padding-left:2px;
+}
+
+@media (max-width: 690px){
+    .container{
+        font-size: 0.9rem;
+        padding: 10px;
+        text-align: center;
+    }
+    .box{
+        display: block;
+    }
+    ol {
+        padding:auto ;
+        text-align: left;
+    }
+    .container .card-4, .container .card-4 .form-row{
+        display: block;
+        text-align: left;
+        margin-right: 0;
+        width: 100%;
+        
+    }
+    .card-4 h2{
+        text-align: center;
+    }
+    .form-row .form{
+        margin-bottom: 10px;
+    }
+}
